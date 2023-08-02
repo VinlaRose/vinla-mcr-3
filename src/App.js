@@ -76,14 +76,14 @@ const sortByProductName = () => {
 };
 
   
-  console.log(state)
   return (
     <div className="App">
-    <h1>MCR -3</h1>
+    <h1>Snack Table</h1>
 
     <input
+        className='inputBox'
         type="text"
-        placeholder="Search by product name or ingredient..."
+        placeholder="Search by product name or ingredient...."
         value={searchTerm}
         onChange={handleSearchChange}
       />

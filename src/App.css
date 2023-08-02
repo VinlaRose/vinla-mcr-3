@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+ 
+ margin: 40px;
+  
 }
 
 .App-logo {
@@ -13,45 +15,44 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  border: 1px solid #ccc;
+  width: 300px;
+  
+  padding: 10px;
+  font-size: 16px;
+  outline: none; 
+  transition: border-color 0.3s ease; 
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input::placeholder {
+  color: #999;
+  
+  
 }
-
-/* Table.css */
 
 .table {
   border-collapse: collapse;
-  width: 100%;
+  margin-top: 10px;
+  
+  
 }
 
 .table th,
 .table td {
-  border: 1px solid #ddd;
+  border: 1px solid rgba(0, 0, 0, 0.788);
   padding: 8px;
   text-align: left;
 }
 
 .table th {
-  background-color: #f2f2f2;
+
 }
 
