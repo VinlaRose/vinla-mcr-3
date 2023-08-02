@@ -52,7 +52,7 @@ input::placeholder {
   text-align: left;
 }
 
-.table th {
-
+.table th  {
+  cursor: pointer;
 }
 
